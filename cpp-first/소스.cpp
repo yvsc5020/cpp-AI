@@ -31,10 +31,31 @@ Node* insertNode(Node* pList, char newch) {
 
 	newNode = (Node*)malloc(sizeof(Node));
 	newNode -> ch = newch;
-	newNode -> link = NULL;
+	newNode->link = NULL;
+
+	if (pList == NULL || pList->ch > newch) {
+		newNode -> link = pList;
+		pList = newNode;
+	}
+	else {
+		while (trace != NULL && trace->ch < newch) {
+			prevNode = trace;
+			trace = trace->link;
+		}
+
+		newNode -> link = prevNode -> link;
+		prevNode -> link = newNode;
+	}
+
+	return pList;
 
 }
 
 void PrintList(Node* pList) {
+	Node* trace = pList;
 
+	while (trace != NULL) {
+		printf("%c ", trace->ch);
+		trace = trace->link;
+	}
 }
