@@ -74,6 +74,10 @@ void PrintList(Node* pList) {
 
 	Node* trace = pList;
 
+	if (trace == NULL) {
+		printf("\n리스트 안에 값이 없습니다.");
+	}
+
 	while (trace != NULL) {
 
 		printf("%c ", trace->ch);
