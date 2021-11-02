@@ -1,3 +1,4 @@
+/*
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -32,7 +33,7 @@ Node* insertNode(Node* pList, char newch) {
 	Node* trace = pList;
 	Node* prevNode = NULL;
 
-	newNode = (Node*)malloc(sizeof(Node));
+	newNode = (Node*)malloc(sizeof(Node));	
 	newNode -> ch = newch;
 	newNode->link = NULL;
 
@@ -62,3 +63,4 @@ void PrintList(Node* pList) {
 		trace = trace->link;
 	}
 }
+//*/
