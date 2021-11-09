@@ -1,3 +1,4 @@
+/*
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -148,3 +149,4 @@ Node* freeList(Node* pList) {
 	return pList;
 
 }
+//*/
