@@ -23,16 +23,12 @@ int main() {
 	printf("Top: %d\n", Top());
 	printf("Popped: %d\n", Pop());
 
-	while (!IsEmpty()) {
-
-		printf("Popped: %d\n", Pop());
-
+	if (Check(str)) {
+		printf("맞습니다.")
 	}
-
-	if (IsEmpty()) {
-		printf("empty stack.\n");
+	else {
+		printf("맞지 않습니다.")
 	}
-	*/
 
 	return 0;
 
