@@ -69,7 +69,8 @@ int Pop() {
 
 	int tmp;
 
-	tmp = Stack[top--];
+	top--;
+	tmp = Stack[top];
 	Stack[top] = NULL;
 	
 	return tmp;
