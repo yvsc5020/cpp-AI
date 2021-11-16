@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp" />
+    <ClCompile Include="소스ver.4.cpp" />
     <ClCompile Include="소스ver.2.cpp" />
     <ClCompile Include="소스ver.3.cpp" />
   </ItemGroup>
