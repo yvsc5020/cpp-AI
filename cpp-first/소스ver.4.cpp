@@ -37,6 +37,11 @@ int main() {
 		printf("짝이 맞습니다.");
 	}
 
+
+	if (Check(str)) {
+		printf("짝이 맞습니다.");
+	}
+
 	else {
 		printf("짝이 안맞습니다.");
 	}
