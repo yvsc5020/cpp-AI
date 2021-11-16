@@ -20,14 +20,11 @@ int main() {
 
 	scanf("%s", str);
 
-	printf("Top: %d\n", Top());
-	printf("Popped: %d\n", Pop());
-
 	if (Check(str)) {
-		printf("맞습니다.")
+		printf("맞습니다.");
 	}
 	else {
-		printf("맞지 않습니다.")
+		printf("맞지 않습니다.");
 	}
 
 	return 0;
