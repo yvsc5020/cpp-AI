@@ -32,7 +32,7 @@ int main(){
 	}
 
 	if (IsEmpty()) {
-		printf("빈 스택입니다.\n");
+		printf("empty stack.\n");
 	}
 
 	return 0;
@@ -69,7 +69,8 @@ int Pop() {
 
 	int tmp;
 
-	tmp = Stack[top--];
+	top--;
+	tmp = Stack[top];
 	Stack[top] = NULL;
 	
 	return tmp;
