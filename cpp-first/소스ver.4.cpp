@@ -20,30 +20,17 @@ int main() {
 
 	scanf("%s", str);
 
-	if (Check(str)) {
-		printf("짝이 맞습니다.");
-	}
-	else {
-		printf("짝이 안맞습니다.");
-	}
+	printf("Top: %d\n", Top());
+	printf("Popped: %d\n", Pop());
 
-	/*
-	for (int i = 0; i < str[i] != NULL; i++) {
-		if (str[i] == '(') cnt++;
-		else cnt--;
+	while (!IsEmpty()) {
+
+		printf("Popped: %d\n", Pop());
+
 	}
 
-	if (cnt == 0) {
-		printf("짝이 맞습니다.");
-	}
-
-
-	if (Check(str)) {
-		printf("짝이 맞습니다.");
-	}
-
-	else {
-		printf("짝이 안맞습니다.");
+	if (IsEmpty()) {
+		printf("empty stack.\n");
 	}
 	*/
 
