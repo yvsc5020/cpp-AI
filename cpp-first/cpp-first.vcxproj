@@ -143,6 +143,8 @@
     <ClCompile Include="소스ver.4.cpp" />
     <ClCompile Include="소스ver.2.cpp" />
     <ClCompile Include="소스ver.3.cpp" />
+    <ClCompile Include="소스ver.5.cpp" />
+    <ClCompile Include="소스ver.6.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

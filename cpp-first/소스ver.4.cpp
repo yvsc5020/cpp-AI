@@ -1,3 +1,4 @@
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #pragma warning(disable:4996)
@@ -108,3 +109,4 @@ bool Check(const char* str) {
 
 	return result;
 }
+//*/
